@@ -1,0 +1,92 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays 
+      site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <title>SPILL BILL</title>
+  </head>
+  
+<body>
+  <div class="top-heading">
+    <h4 class="line1">BILL</h4>
+    <h4 class="line2">SPILL</h4>
+  </div>
+  <main>
+    <div class="calculator">
+        
+      <div class="left-box">
+        <h6>Bill</h6>
+        <span class="text-addon"><i class="fa-solid fa-dollar-sign"></i></span>
+        <input type="text" class="left-input" id="amount">
+        <h6>Select Tip %</h6>
+        <button type="button" class="btn btn-primary tip">5%</button>
+        <button type="button" class="btn btn-primary tip">10%</button>
+        <button type="button" class="btn btn-primary tip">15%</button>
+        <button type="button" class="btn btn-primary tip">25%</button>
+        <button type="button" class="btn btn-primary tip">30%</button>
+        <button type="button" class="btn btn-primary tip">50%</button>
+        <button type="button" class="btn btn-primary tip">75%</button>
+        <input type="text" class="left-input" id="custom" placeholder="Custom">
+        <h6>Number of People</h6>
+        <span class="people-addon"><i class="fa-solid fa-person"></i></span>
+        <input type="text" class="left-input" id="people">
+        <button type="button" class="btnn" id="generate" >Generate Bill</button>
+      </div>
+
+      <div class="right-box">
+        <h5>Tip Amount / person</h5>
+        <input type="text" id="tipPerPerson" class="right-input" readonly placeholder="₹0.00"><br><br><br>
+        <h5>Total / person</h5>
+        <input type="text" id="totalPerPerson" class="right-input" style="margin-left: 
+             40px;" readonly placeholder="₹0.00"><br><br><br>
+        <button type="button" class="btn btn-primary btn-lg" id="reset">Reset</button>
+        <h1>Button enabled</h1>
+      </div>
+
+    </div>
+  </main>
+  <script src="index.js"></script><br><br> <br><br>
+  <section class="tip"></section>
+</body>
+<div class="top-heading">
+  <h4 class="line1">BILL</h4>
+  <h4 class="line2">SPILL</h4>
+</div>
+<main>
+  <div class="calculator">
+      
+    <div class="left-box">
+      <h6>Bill</h6>
+      <span class="text-addon"><i class="fa-solid fa-dollar-sign"></i></span>
+      <input type="text" class="left-input" id="amount">
+      <h6>Select Tip %</h6>
+      <button type="button" class="btn btn-primary tip">5%</button>
+      <button type="button" class="btn btn-primary tip">10%</button>
+      <button type="button" class="btn btn-primary tip">15%</button>
+      <button type="button" class="btn btn-primary tip">25%</button>
+      <button type="button" class="btn btn-primary tip">30%</button>
+      <button type="button" class="btn btn-primary tip">50%</button>
+      <button type="button" class="btn btn-primary tip">75%</button>
+      <input type="text" class="left-input" id="custom" placeholder="Custom">
+      <h6>Number of People</h6>
+      <span class="people-addon"><i class="fa-solid fa-person"></i></span>
+      <input type="text" class="left-input" id="people">
+      <button type="button" class="btnn1" >Generate Bill</button>
+    </div>
+
+    <div class="right-box">
+      <h5>Tip Amount / person</h5>
+      <input type="text" id="tipPerPerson" class="right-input" readonly placeholder="₹0.00"><br><br><br>
+      <h5>Total / person</h5>
+      <input type="text" id="totalPerPerson" class="right-input" style="margin-left: 
+           40px;" readonly placeholder="₹0.00"><br><br><br>
+      <button type="button" class="btnn2">Reset</button>
+      <h1 class="disable">Button disabled</h1>
+    </div>
+
+  </div>
+</main>
+<script src="script.js"></script><br><br> <br><br>
+<section class="tip"></section>
+</body>

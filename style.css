@@ -1,0 +1,210 @@
+body {
+  background-color: rgb(243, 123, 243);
+      font-family: "Space Mono";
+      font-family: "Inconsolata";
+}
+h1{
+  position: absolute;
+width: 337px;
+height: 46px;
+left: 1400px;
+top: 400px;
+color: #FFFFFF;
+
+}
+h4 {
+  color: white;
+  letter-spacing: 15px;
+  margin: 5% 50% 0% 45%;
+}
+
+h5 {
+  font-size: small;
+  color: #fff;
+  display: inline-block;
+}
+
+h6 {
+  font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: 0.045em;
+  margin: 3%;
+  color:  #9C60FF;
+}
+
+.line2 {
+  margin-top: 0%;
+}
+
+/*div {
+background-color: #D6BCFF;
+position: relative;
+width: 1280px;
+height: 850px;
+padding: 50px;
+margin: 20px;
+}*/ 
+.calculator {
+  display: flex;
+  margin: 4% 15% 0% 20%;
+  background-color: #fff;
+  border-radius: 2.5%;
+  z-index: 1;
+  width: 60%;
+  padding: 0.9%;
+}
+
+.left-box {
+  float: left;
+  background-color:#FFFFFF;
+  width: 50%;
+  height: ;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.left-input {
+  background: #B6ACC387;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  height: 35px;
+  text-align: right;
+  color: hsl(183, 100%, 15%);
+  width: 80%;
+}
+.btnn{
+  position: absolute;
+  width: 337px;
+  height: 46px;
+  left: 400px;
+  top: 530;
+  background: #9C60FF;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.43);
+  border-radius: 9px;
+
+}
+.left-input:focus {
+  outline: none !important;
+  border: 1px solid aquamarine;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+#custom {
+  display: inline-block;
+  background-color: hsl(189, 41%, 97%);
+  color: black;
+  width: 25%;
+  height: 11%;
+  text-align: center;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.btn {
+  width: 80px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color:#9C60FF;
+  border: none;
+}
+
+.btn-selected {
+  background-color: hsl(166, 61%, 39%);
+}
+
+.custom:focus {
+  background-color: hsl(161, 28%, 62%);
+  color: #fff;
+}
+.btnn1{
+  background-color:white;
+  border-radius: 4px;
+  width: 300px;
+  position: absolute;
+  width: 295px;
+  height: 43px;
+  left: 430px;
+  top: 1200px;
+}
+.btnn2{
+  background-color:#B6ACC387;
+  border-radius: 4px;
+  width: 310px;
+  position: absolute;
+  width: 295px;
+  height: 40px;
+  left: 920px;
+  top: 1140px;
+}
+.right-box {
+  float: right;
+  width: 400px;
+  height: 370px;
+  box-sizing: border-box;
+  background-color: #9C60FF;
+  padding: 3.5%;
+  border-radius: 11px;
+}
+
+.right-input {
+  width: 50%;
+  border: none;
+  outline: none;
+  color: black;
+  text-align: right;
+  height: 30px;
+  font-size: xx-large;
+}
+
+.btn-lg {
+  background-color:white;
+  border-radius: 5px;
+  width: 295px;
+  position: absolute;
+width: 295px;
+height: 43px;
+left: 945px;
+top: 500px;
+}
+.disable {
+    position: absolute;
+width: 337px;
+height: 46px;
+left: 1400px;
+top: 1100px;
+color: #FFFFFF;  
+}
+btn-lg1 {
+  background-color:#efedf5;
+  border-radius: 5px;
+  width: 295px;
+  position: absolute;
+width: 295px;
+height: 43px;
+left: 945px;
+top: 500px;
+}
+@media only screen and (max-width: 600px) {
+  h4 {
+    margin: 5% 30% 5% 40%;
+  }
+  .calculator {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .left-box {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .right-box {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
